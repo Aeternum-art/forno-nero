@@ -11,8 +11,8 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: "/Forno-Nero",
   plugins: [react()],
+  base: "/forno-nero",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
