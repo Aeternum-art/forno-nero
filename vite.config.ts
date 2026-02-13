@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
+  base: "/Forno-Nero",
   plugins: [react()],
   resolve: {
     alias: {
